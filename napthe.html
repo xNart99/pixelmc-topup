@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/napthe.css">
+    <title>Nạp thẻ</title>
+</head>
+<body>
+
+    <section class="naptheSection">
+
+        <div class="naptheFrame">
+            <div class="leftTopUpFrame">
+                <img id="miniLogo" src="image/MiniLogo.png" alt="miniPixelLogo">
+
+                <div class="tableWarper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Mệnh Giá</th>
+                                <th>Thẻ</th>
+                                <th>Trạng Thái</th>
+                                <th>Thời Gian</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>xNart</td>
+                                <td>20,000đ</td>
+                                <td>Viettel</td>
+                                <td><p class="status status-tb">Thất bại</p></td>
+                                <td>2022-03-25</td>
+                            </tr>
+                            <tr>
+                                <td>xNart</td>
+                                <td>20,000đ</td>
+                                <td>Viettel</td>
+                                <td><p class="status status-tc">Thành công</p></td>
+                                <td>2022-03-25</td>
+                            </tr>
+                            <tr>
+                                <td>xNart</td>
+                                <td>20,000đ</td>
+                                <td>Viettel</td>
+                                <td><p class="status status-smg">Sai mệnh giá</p></td>
+                                <td>2022-03-25</td>
+                            </tr>
+                            <tr>
+                                <td>xNart</td>
+                                <td>20,000đ</td>
+                                <td>Viettel</td>
+                                <td><p class="status status-tb">Thất bại</p></td>
+                                <td>2022-03-25</td>
+                            </tr>
+                            <tr>
+                                <td>xNart</td>
+                                <td>20,000đ</td>
+                                <td>Viettel</td>
+                                <td><p class="status status-tc">Thành công</p></td>
+                                <td>2022-03-25</td>
+                            </tr>
+                            <tr>
+                                <td>xNart</td>
+                                <td>20,000đ</td>
+                                <td>Viettel</td>
+                                <td><p class="status status-tc">Thành công</p></td>
+                                <td>2022-03-25</td>
+                            </tr>
+                            <tr>
+                                <td>xNart</td>
+                                <td>20,000đ</td>
+                                <td>Viettel</td>
+                                <td><p class="status status-tc">Thành công</p></td>
+                                <td>2022-03-25</td>
+                            </tr>
+                            <tr>
+                                <td>xNart</td>
+                                <td>20,000đ</td>
+                                <td>Viettel</td>
+                                <td><p class="status status-tc">Thành công</p></td>
+                                <td>2022-03-25</td>
+                            </tr>
+                            <tr>
+                                <td>xNart</td>
+                                <td>20,000đ</td>
+                                <td>Viettel</td>
+                                <td><p class="status status-tc">Thành công</p></td>
+                                <td>2022-03-25</td>
+                            </tr>
+                            <tr>
+                                <td>xNart</td>
+                                <td>20,000đ</td>
+                                <td>Viettel</td>
+                                <td><p class="status status-tc">Thành công</p></td>
+                                <td>2022-03-25</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+            </div>
+
+            <div class="rightTopUpFrame">
+                <ul>
+                    <li><a href="#" class="active">Lịch sử</a></li>
+                    <li><a href="#">Qui đổi</a></li>
+                    <li><a href="#">Top</a></li>
+                </ul>
+                
+                <form method="POST" action="#" class="naptheForm" id="myform">
+                            <img id="naptheFormLogo" src="image/PixelMC_1.png" alt="pixelmcLogoMain">  
+                                <div class="rightFlexBox">
+                                    
+                                    <div class="inputWraper">
+                                        <!-- <label class="canhbao" id="userTontai"> (*) Tài khoản không tồn tại trong server</label> -->
+                                        <label class="labelInputFields ">Username</label>
+                                        <input type="text" placeholder="Nhập tài khoản" class="inputFields" name="username" id="name" onfocusout="checkValidation();" required />
+                                    </div>
+                                    <div class="inputWraper">
+                                        <label class="labelInputFields ">Loại thẻ</label>
+                                        <select class="inputFields" name="card_type" required>
+                                            <option value="">Chọn loại thẻ</option>
+                                            <option value="">Viettel</option>
+                                            <option value="">Mobile</option>
+                                            <option value="">Vinaphone</option>
+                                        </select>
+                                    </div>
+                                    <div class="inputWraper">
+                                        <label class="labelInputFields ">Seri</label>
+                                        <input type="text" placeholder="Nhập số seri" class="inputFields" name="serial" required />
+                                    </div>
+                                   
+                                    <div class="inputWraper">
+                                        <label class="labelInputFields ">Mệnh giá</label>
+                                        
+                                        <select class="inputFields" name="card_amount" required>
+                                            <option value="">Chọn mệnh giá</option>
+                                            <option value="">10.000</option>
+                                            <option value="">20.000</option>
+                                            <option value="">50.000</option>
+                                        </select>
+                                    </div>
+                                    <div class="inputWraper">
+                                        <label class="labelInputFields ">Mã thẻ</label>
+                                        <input type="text" placeholder="Nhập mã thẻ" class="inputFields" name="pin" required />
+                                    </div>
+                                    <div class="inputWraper">
+                                        <label class="labelInputFields ">Server</label>
+                                        <select class="inputFields" name="server_name" required>
+                                            <option value="">Chọn máy chủ</option>
+                                            <option value="">Skyblock</option>
+                                            <option value="">Pixelmon</option>
+                                        </select>
+                                    </div>
+                                    <button type="submit" id="btnTopUp" class="btn" name="submit" required>NẠP NGAY</button>
+                                 
+                                </div>
+                </form>
+            </div>
+        </div>
+        
+
+
+
+    </section>
+
+    
+</body>
+</html>
