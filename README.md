@@ -16,10 +16,3 @@
         
    [+] Thông tin thẻ đúng/sai được trả về tại file callback.php bằng phương thức POST trực tiếp từ ApiServer thông qua url callback được cung cấp từ trước.     
  
- # Contact Me
-   [-] By Hknight - LevelHigh.site
-   
-   [-] Website: https://levelhigh.site
-   
-   [-] Date: 2020/05/01
-   
